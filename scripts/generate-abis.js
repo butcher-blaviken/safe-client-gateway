@@ -19,7 +19,7 @@ const fs = require('fs');
 const assetsDir = path.join(
   process.cwd(),
   'node_modules',
-  '@safe-global',
+  "@safe-global",
   'safe-deployments',
   'dist',
   'assets',
