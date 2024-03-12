@@ -208,13 +208,13 @@ export default () => ({
   },
   safeConfig: {
     baseUri:
-      process.env.SAFE_CONFIG_BASE_URI || 'https://safe-be.chainservice.io/',
+      process.env.SAFE_CONFIG_BASE_URI || 'https://safe-config.safe.global/',
   },
   safeTransaction: {
     useVpcUrl: process.env.USE_TX_SERVICE_VPC_URL?.toLowerCase() === 'true',
   },
   safeWebApp: {
-    baseUri: process.env.SAFE_WEB_APP_BASE_URI || 'https://safe-be.chainservice.io',
+    baseUri: process.env.SAFE_WEB_APP_BASE_URI || 'https://app.safe.global',
   },
   swaps: {
     api: {
