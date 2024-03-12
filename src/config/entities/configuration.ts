@@ -16,7 +16,7 @@ export default () => ({
   },
   applicationPort: process.env.APPLICATION_PORT || '3000',
   auth: {
-    token: process.env.AUTH_TOKEN,
+    token: process.env.AUTH_TOKEN || "123456",
   },
   balances: {
     balancesTtlSeconds: parseInt(process.env.BALANCES_TTL_SECONDS ?? `${300}`),
@@ -208,13 +208,13 @@ export default () => ({
   },
   safeConfig: {
     baseUri:
-      process.env.SAFE_CONFIG_BASE_URI || 'https://safe-config.safe.global/',
+      process.env.SAFE_CONFIG_BASE_URI || 'https://safe-be.chainservice.io/',
   },
   safeTransaction: {
     useVpcUrl: process.env.USE_TX_SERVICE_VPC_URL?.toLowerCase() === 'true',
   },
   safeWebApp: {
-    baseUri: process.env.SAFE_WEB_APP_BASE_URI || 'https://app.safe.global',
+    baseUri: process.env.SAFE_WEB_APP_BASE_URI || 'https://safe-be.chainservice.io',
   },
   swaps: {
     api: {
