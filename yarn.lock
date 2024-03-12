@@ -1543,9 +1543,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@https://github.com/butcher-blaviken/safe-deployments.git#mapo":
+"@safe-global/safe-deployments@https://github.com/butcher-blaviken/safe-deployments.git":
   version: 1.25.0
-  resolution: "@safe-global/safe-deployments@https://github.com/butcher-blaviken/safe-deployments.git#commit=455e6a51b65b280f08b41821a159f69b97c63d05"
+  resolution: "@safe-global/safe-deployments@https://github.com/butcher-blaviken/safe-deployments.git#commit=b21a55735b1bd8fcb13f97bf029bb2ad6ebbf525"
   dependencies:
     semver: "npm:^7.3.7"
   checksum: 4303478ce0c1a0e9a8b5aca885998440213dc640683d12017a2c89db10455f7abf60c9a3cfa2d7fb12b0533e9ddfb1e18f27d9751ad1280892074fc864353187
@@ -7122,7 +7122,7 @@ __metadata:
     "@nestjs/serve-static": "npm:^4.0.1"
     "@nestjs/swagger": "npm:^7.2.0"
     "@nestjs/testing": "npm:^10.3.3"
-    "@safe-global/safe-deployments": "https://github.com/butcher-blaviken/safe-deployments.git#mapo"
+    "@safe-global/safe-deployments": "https://github.com/butcher-blaviken/safe-deployments.git"
     "@types/express": "npm:^4.17.21"
     "@types/jest": "npm:29.5.12"
     "@types/lodash": "npm:^4.14.202"
